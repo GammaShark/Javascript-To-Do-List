@@ -119,7 +119,7 @@ function getTodos(){
     newTodo.classList.add('todo-item');
     todoDiv.appendChild(newTodo)
     //ADD TODO TO LOCAL STORAGE
-    saveLocalTodos(todoINput.value);
+    saveLocalTodos(todoInput.value);
     //check mark button
     const completedButton = document.createElement('button');
     completedButton.innerHTML = '<i class="fas fa-check"></i>';
